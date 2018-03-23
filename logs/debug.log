@@ -1,0 +1,72 @@
+[2017-12-14 16:45:06.501] [DEBUG] debug - config utils fillSession
+[2017-12-14 16:45:06.502] [DEBUG] debug - config utils fillWebSession
+[2017-12-14 16:45:37.462] [DEBUG] debug - routes index webindex
+[2017-12-14 16:45:48.004] [DEBUG] debug - routes login login
+[2017-12-14 16:45:48.004] [DEBUG] debug - validate email
+[2017-12-14 16:45:48.005] [DEBUG] debug - validate username
+[2017-12-14 16:45:48.005] [DEBUG] debug - validate mobile
+[2017-12-14 16:45:48.005] [DEBUG] debug - validate password
+[2017-12-14 16:45:48.006] [DEBUG] debug - crud login doLogin
+[2017-12-14 16:45:48.009] [DEBUG] debug - crud result{ _id: 5a2ff97760b67c037126ce66,
+  useremail: 'm@gmail.com',
+  username: 'mmmm1',
+  password1: 'bcdfc55b89be40e4956e3e16dad3aed62e84e9d4d711a9d15f7fe3ff30aa02d3b218c8b367fef731bfa77eeb9d0247dbfe6765bab4ec6a62e96bb97562fa8847',
+  role: 'customer',
+  salt: '2e3a58781c698719',
+  userid: '3vvhPR48becoZ23P69lhLsPxWHgwkAuY',
+  registrationdate: 2017-12-12T15:44:55.245Z,
+  emailverified: false,
+  __v: 0,
+  emailactivationtoken: 'atuECHryD3VntBetdouTGv7D34dfR6w0',
+  social: [] }
+[2017-12-14 16:45:48.010] [DEBUG] debug - config encrypt sha512
+[2017-12-14 16:45:48.010] [DEBUG] debug - config utils fillSession
+[2017-12-14 16:45:48.012] [DEBUG] debug - config utils fillWebSession
+[2017-12-14 16:45:48.020] [DEBUG] debug - routes index webindex
+[2017-12-14 16:45:48.020] [DEBUG] debug - crud index checkSession
+[2017-12-14 16:45:48.025] [DEBUG] debug - crud result{ _id: 5a2ff97760b67c037126ce66,
+  useremail: 'm@gmail.com',
+  username: 'mmmm1',
+  password1: 'bcdfc55b89be40e4956e3e16dad3aed62e84e9d4d711a9d15f7fe3ff30aa02d3b218c8b367fef731bfa77eeb9d0247dbfe6765bab4ec6a62e96bb97562fa8847',
+  role: 'customer',
+  salt: '2e3a58781c698719',
+  userid: '3vvhPR48becoZ23P69lhLsPxWHgwkAuY',
+  registrationdate: 2017-12-12T15:44:55.245Z,
+  emailverified: false,
+  __v: 0,
+  emailactivationtoken: 'atuECHryD3VntBetdouTGv7D34dfR6w0',
+  social: [] }
+[2017-12-14 16:45:48.025] [DEBUG] debug - config utils fillSession
+[2017-12-14 16:45:48.025] [DEBUG] debug - config utils fillWebSession
+[2017-12-14 16:45:48.543] [DEBUG] debug - routes index webindex
+[2017-12-14 16:45:48.544] [DEBUG] debug - crud index checkSession
+[2017-12-14 16:45:48.548] [DEBUG] debug - crud result{ _id: 5a2ff97760b67c037126ce66,
+  useremail: 'm@gmail.com',
+  username: 'mmmm1',
+  password1: 'bcdfc55b89be40e4956e3e16dad3aed62e84e9d4d711a9d15f7fe3ff30aa02d3b218c8b367fef731bfa77eeb9d0247dbfe6765bab4ec6a62e96bb97562fa8847',
+  role: 'customer',
+  salt: '2e3a58781c698719',
+  userid: '3vvhPR48becoZ23P69lhLsPxWHgwkAuY',
+  registrationdate: 2017-12-12T15:44:55.245Z,
+  emailverified: false,
+  __v: 0,
+  emailactivationtoken: 'atuECHryD3VntBetdouTGv7D34dfR6w0',
+  social: [] }
+[2017-12-14 16:45:48.549] [DEBUG] debug - config utils fillSession
+[2017-12-14 16:45:48.549] [DEBUG] debug - config utils fillWebSession
+[2017-12-14 16:46:04.333] [DEBUG] debug - routes index webindex
+[2017-12-14 16:46:04.334] [DEBUG] debug - crud index checkSession
+[2017-12-14 16:46:04.341] [DEBUG] debug - crud result{ _id: 5a2ff97760b67c037126ce66,
+  useremail: 'm@gmail.com',
+  username: 'mmmm1',
+  password1: 'bcdfc55b89be40e4956e3e16dad3aed62e84e9d4d711a9d15f7fe3ff30aa02d3b218c8b367fef731bfa77eeb9d0247dbfe6765bab4ec6a62e96bb97562fa8847',
+  role: 'customer',
+  salt: '2e3a58781c698719',
+  userid: '3vvhPR48becoZ23P69lhLsPxWHgwkAuY',
+  registrationdate: 2017-12-12T15:44:55.245Z,
+  emailverified: false,
+  __v: 0,
+  emailactivationtoken: 'atuECHryD3VntBetdouTGv7D34dfR6w0',
+  social: [] }
+[2017-12-14 16:46:04.341] [DEBUG] debug - config utils fillSession
+[2017-12-14 16:46:04.342] [DEBUG] debug - config utils fillWebSession

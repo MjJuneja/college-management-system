@@ -1,0 +1,593 @@
+﻿
+<style>
+/*--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+/*--reset--*/
+
+/*--start editing from here--*/
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+
+img{max-width:100%;}
+/*--end reset--*/
+body {
+	margin:0;
+    font-family: 'News Cycle', sans-serif;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size:cover;
+	text-align: left;
+	background:url(../images/bg.jpg)no-repeat center;
+    background-attachment:fixed;
+}
+/*-- banner --*/
+.video {
+    background-position:0px 0px;
+	text-align: left;
+	min-height: 100%;
+	background-size:cover;
+	/*min-height:900px;*/
+	/*background-position:center;
+	background-attachment:fixed;--*/
+}
+h1,h2,h3,h4,h5,h6,input,p,a,select,button,textarea,label{
+	margin:0;
+}
+.text-center {
+	text-align: center;
+}
+.clear{clear:both;}
+body a{
+    transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+	text-decoration: none;
+}
+input[type="button"],input[type="submit"]{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0;
+}
+p{
+	margin:0;
+
+}
+ul{
+	margin:0;
+	padding:0;
+}
+label{
+	margin:0;
+	color: #dcffff;
+}
+.text-center {
+	text-align:center;
+}
+.clear {
+	clear: both;
+}
+.center-container {
+    padding: 0;
+}
+::-webkit-input-placeholder {
+   color: #777;
+}
+:-moz-placeholder { /* Firefox 18- */
+   color: #777;
+}
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #777;
+}
+:-ms-input-placeholder {
+   color:#777;
+}
+.bg {
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* form */
+h1.agile-head {
+    color: #fff;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 1em;
+    font-weight: 600;
+}
+.content-w3ls {
+    width: 32%;
+    margin: 3em auto 2em;
+    background: rgba(0, 0, 0, 0.68);
+    padding: 3em;
+}
+.form-control {
+	width:100%;
+    margin-bottom: 1em;
+}
+.form-control:nth-child(6) {
+	padding-bottom:0;
+}
+label.header, label.enquiry {
+    font-size: 1em;
+    font-weight: 600;
+    color: #fff;
+	letter-spacing:0.5px;
+    text-transform: capitalize;
+    display: inline-block;
+	margin-bottom: 0.6em;
+	width:40%;
+	float: left;
+}
+input#name, input#email, input#bill, input#usrtel {
+	width: 54%;
+	float: left;
+	border: none;
+    color: #000;
+    outline: none;
+    font-size: 1em;
+    padding: 10px 15px;
+	background-color: rgba(255, 255, 255, 0.75);
+	font-weight: 600;
+	font-family: 'News Cycle', sans-serif;
+}
+textarea#message {
+	height:150px;
+	padding:10px 15px;
+	width:94%;
+    font-size: 1em;
+	resize:none;
+	font-weight: 600;
+	background-color: rgba(255, 255, 255, 0.75);
+	font-family: 'News Cycle', sans-serif;
+}
+.form-control.w3ls-end {
+    margin: 0;
+}
+input::-webkit-input-placeholder {
+color:#c1c1c1!important;
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+color:#c1c1c1!important;
+}
+
+input::-moz-placeholder {  /* Firefox 19+ */
+color:#c1c1c1!important;
+}
+
+input:-ms-input-placeholder {
+color:#c1c1c1!important;
+}
+textarea::-webkit-input-placeholder {
+color:#c1c1c1!important;
+}
+
+textarea::-moz-placeholder { /* Firefox 18- */
+color:#c1c1c1!important;
+}
+
+textarea::-moz-placeholder {  /* Firefox 19+ */
+color:#c1c1c1!important;
+}
+
+textarea::-ms-input-placeholder {
+color:#c1c1c1!important;
+}
+.agile_form ul {
+    width: 43%;
+    list-style-type: none;
+    float: left;
+	margin:1em 1.6em;
+	position:relative;
+}
+.agile_form ul li {
+    color: #f5e7cc;
+    position: relative;
+    display: inline-block;
+}
+ .agile_form ul li input[type=radio]{
+  position: absolute;
+  visibility: hidden;
+}
+.agile_form ul li label {
+    display: inline-block;
+    position: relative;
+    font-size: 1.1em;
+    padding: 0.5em 0em 0.5em 1em;
+    margin: 3em 0 0 0.8em;
+    z-index: 9;
+    cursor: pointer;
+	text-transform: capitalize;
+	transition:all 0.25s linear;
+    -webkit-transition: all 0.25s linear;
+}
+.form-control select {
+    border: none;
+    outline: none;
+    font-size: 0.9em;
+    background: url(../images/icon.png) no-repeat 97% center rgba(255, 255, 255, 0.75);
+    padding: 15px;
+    color: #000!important;
+    -webkit-appearance: none;
+    width: 60%;
+    float: left;
+}
+.register,.reset {
+	background:#00223c;
+    width:20%;
+	padding:0.7em 1em;
+	margin-right:5px;
+	float:right;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+	letter-spacing:1px;
+    outline: none;
+    font-size:0.9em;
+    text-transform: capitalize;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.inpfile {
+	background:#fff;
+    width:40%;
+	padding:0.7em 1em;
+	margin-right:5px;
+	float:right;
+    border: none;
+    cursor: pointer;
+    color: black;
+	letter-spacing:1px;
+    outline: none;
+    font-size:0.9em;
+    text-transform: capitalize;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+.register:hover,.reset:hover {
+	background:#fff;
+	color:#00223c;
+}
+.agileits-w3layouts-copyright {
+    padding: 1em 0 2em;
+}
+p.w3ls-copyright,p.w3ls-copyright a {
+    color: #fff;
+    letter-spacing: 0.5px;
+    font-size: 1em;
+}
+/*responsive code*/
+@media screen and (max-width: 1920px){
+	input#name, input#email, input#bill, input#usrtel {
+		width: 55%;
+	}
+	textarea#message {
+		width: 94.5%;
+	}
+}
+@media screen and (max-width: 1680px){
+	.content-w3ls {
+		width: 36%;
+	}
+}
+@media screen and (max-width: 1600px){
+	.content-w3ls {
+		width: 38%;
+	}
+}
+@media screen and (max-width: 1440px){
+	input#name, input#email, input#bill, input#usrtel {
+		width: 54%;
+	}
+	textarea#message {
+		width: 93.5%;
+	}
+}
+@media screen and (max-width: 1280px){
+	.content-w3ls {
+		width: 47%;
+	}
+	input#name, input#email, input#bill, input#usrtel {
+		width: 54.5%;
+	}
+	textarea#message {
+		width: 94.5%;
+	}
+}
+@media screen and (max-width: 1080px){
+	.content-w3ls {
+		width: 53%;
+	}
+}
+@media screen and (max-width: 1024px){
+	input#name, input#email, input#bill, input#usrtel {
+		width: 54.3%;
+	}
+	textarea#message {
+		width: 94%;
+	}
+}
+@media screen and (max-width: 991px){
+	.content-w3ls {
+		width: 54%;
+	}
+}
+@media screen and (max-width: 900px){
+	input#name, input#email, input#bill, input#usrtel {
+		width: 53.5%;
+	}
+	textarea#message {
+		width: 93%;
+	}
+}
+@media screen and (max-width: 800px){
+	.content-w3ls {
+		width: 59%;
+	}
+}
+@media screen and (max-width: 768px){
+	input#name, input#email, input#bill, input#usrtel {
+		width: 53%;
+	}
+}
+@media screen and (max-width: 736px){
+	input#name, input#email, input#bill, input#usrtel {
+		width: 52.9%;
+	}
+	textarea#message {
+		width: 92.5%;
+	}
+}
+@media screen and (max-width: 667px){
+	.content-w3ls {
+		width: 65%;
+	}
+}
+@media screen and (max-width: 640px){
+	.register, .reset {
+		width: 30%;
+	}
+	input#name, input#email, input#bill, input#usrtel {
+		width: 52%;
+	}
+	textarea#message {
+		width: 92%;
+	}
+	h1.agile-head {
+		font-size: 2.3em;
+	}
+}
+@media screen and (max-width: 568px){
+	input#name, input#email, input#bill, input#usrtel {
+		width: 91%;
+		float: none;
+	    padding: 9px 15px;
+	}
+	.form-control select {
+   		padding: 15px 20px;
+	}
+	.register, .reset {
+		width: 36%;
+	}
+	.form-control select {
+        width: 100%;
+    	float: none;
+	}
+	textarea#message {
+		width: 91%;
+	}
+}
+@media screen and (max-width: 480px){
+	.content-w3ls {
+		width: 70%;
+	}
+	label.header, label.enquiry {
+		width: 100%;
+		float: none;
+	}
+	h1.agile-head {
+		font-size: 2.1em;
+	}
+}
+@media screen and (max-width: 414px){
+	.content-w3ls {
+		width: 74%;
+		padding:2em;
+	}
+	textarea#message {
+		width: 89%;
+	}
+	input#name, input#email, input#bill, input#usrtel {
+		width: 90%;
+		float: none;
+	}
+}
+@media screen and (max-width: 384px){
+	p.w3ls-copyright{
+		padding: 0 1em;
+	}
+	input#name, input#email, input#bill, input#usrtel {
+		width: 89%;
+	}
+}
+@media screen and (max-width: 375px){
+	textarea#message {
+		width: 88%;
+	}
+}
+@media screen and (max-width: 320px){
+	h1.agile-head {
+		font-size: 1.8em;
+	}
+	input#name, input#email, input#bill, input#usrtel {
+		width: 87%;
+	}
+	textarea#message {
+		width:86%;
+	}
+}
+
+</style>
+
+
+
+
+
+
+
+<div class="content-w3ls">
+		<h1 class="agile-head text-center">ADD College Info</h1>
+		<div class="form-w3layouts">
+			<form action="/college" name="Form1" enctype ="multipart/form-data" method="post" class="form-box">
+				<div class="form-control">
+					<label class="header">College Name <span>:</span></label>
+					<input type="text" id="name" name="collegename" class="inp" placeholder="Collegename" required>
+					<div class="clear"></div>
+				</div>
+
+				<div class="form-control">
+					<label class="header">College Website <span>:</span></label>
+					<input type="text" id="email" name="website" class="inp" placeholder="website" required>
+					<div class="clear"></div>
+				</div>
+				<div class="form-control inp">
+						<label class="header">State</label>
+						<select  name="state" required>
+							<option value="">select one</option>
+							<option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands </option>
+							<option value="Andra Pradesh">Andra Pradesh </option>
+							<option value="Arunachal Pradesh">Arunachal Pradesh</option>
+							<option value="Assam">Assam</option>
+							<option value="Bihar">Bihar</option>
+							<option value="Chandigarh">Chandigarh</option>
+							<option value="Chhattisgarh">Chhattisgarh</option>
+              <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+              <option value="Daman and Diu">Daman and Diu</option>
+							<option value="Delhi">Delhi</option>
+							<option value="Goa">Goa</option>
+              <option value="Gujarat">Gujarat</option>
+							<option value="Haryana">Haryana</option>
+							<option value="Himachal Pradesh">Himachal Pradesh</option>
+							<option value="Jammu and Kashmir">Jammu and Kashmir</option>
+							<option value="Jharkhand">Jharkhand</option>
+              <option value="Karnataka">Karnataka</option>
+              <option value="Kerala">Kerala</option>
+							<option value="Lakshadeep">Lakshadeep</option>
+							<option value="Madya Pradesh">Madya Pradesh</option>
+              <option value="Maharashtra">Maharashtra</option>
+							<option value="Manipur">Manipur</option>
+							<option value="Meghalaya">Meghalaya</option>
+							<option value="Mizoram">Mizoram</option>
+							<option value="Nagaland">Nagaland </option>
+							<option value="Orissa">Orissa </option>
+							<option value="Pondicherry">Pondicherry</option>
+							<option value="Punjab">Punjab</option>
+							<option value="Rajasthan">Rajasthan</option>
+							<option value="Sikkim">Sikkim</option>
+							<option value="Tamil Nadu">Tamil Nadu</option>
+							<option value="Tripura">Tripura</option>
+							<option value="Uttaranchal">Uttaranchal</option>
+							<option value="Uttar Pradesh">Uttar Pradesh </option>
+							<option value="West Bengal">West Bengal </option>
+						</select>
+						<div class="clear"></div>
+				</div>
+				<div class="form-control inp">
+						<label class="header">college Type</label>
+						<select name="typeOf" required>
+							<option value="">select one</option>
+							<option value="Government">Government </option>
+							<option value="Private">Private </option>
+							<option value="Semi-Private">Semi-Private</option>
+						</select>
+						<div class="clear"></div>
+				</div>
+				<div class="form-control inp">
+						<label class="header">Course Offered</label>
+						<select  name="courses" required>
+							<option value="">select one</option>
+							<option value="Engineering">Engineering </option>
+							<option value="Bussiness and Management">Bussiness and Management </option>
+							<option value="Law">Law</option>
+							<option value="Pharma">Pharma</option>
+							<option value="Mass comm. and Journalism">Mass comm. and Journalism</option>
+							<option value="Visual Arts">Visual Arts</option>
+							<option value="Aviation & Hospitality Management">Aviation & Hospitality Management</option>
+							<option value="Hotel Management & Catering">Hotel Management & Catering</option>
+							<option value="Languages">Languages</option>
+							<option value="Bachelor of Arts">Bachelor of Arts</option>
+							<option value="Bachelor of Commerce">Bachelor of Commerce</option>
+							<option value="Research and Development">Research and Development</option>
+							<option value="Other">Other</option>
+						</select>
+						<div class="clear"></div>
+				</div>
+
+				<div class="form-control" >
+					<label class="header">College Image <span>:</span></label>
+					<input type="file"  name="upload_file" class="inpfile"  onChange="getStats(this.value)" required><br>
+					<div class="clear"></div>
+					<br />
+					<label class="header">Image Name <span>:</span></label> <input class="inp" id="name" name='dispName' readonly size=20>
+					<br />
+				</div>
+				<div class="form-control">
+					<div class="clear"></div>
+					<br />
+					<label class="enquiry"  class="inp" placeholder="Description" required>Description <span>:</span></label><br />
+					<br />
+					<textarea type="text" id="message" name="description"  /></textarea>
+					<div class="clear"></div>
+				</div>
+
+
+
+				<div class="form-control w3ls-end">
+					<input type="reset" class="reset" value="Reset">
+					<input type="submit" name="submit" class="reset" class="register sub-btn" value="Submit">
+					<div class="clear"></div>
+				</div>
+			</form>
+		</div>
+	</div>
+	<div class="clear"></div>
+	<div class="agileits-w3layouts-copyright text-center">
+		<p class="w3ls-copyright">© 2017 &nbsp;Admission Enquiry Form. All rights reserved | Design by <a href="#">Collegesite</a></p>
+	</div>
+
+
+
+	<script Language=JavaScript>
+
+function getStats(fName){
+
+fullName = fName;
+shortName = fullName.match(/[^\/\\]+$/);
+document.forms.Form1.dispName.value = shortName
+}
+</script>
